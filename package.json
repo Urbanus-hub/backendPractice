@@ -1,0 +1,38 @@
+{
+  "name": "backendpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "server":"nodemon src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urbanus-hub/backendPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Urbanus-hub/backendPractice/issues"
+  },
+  "homepage": "https://github.com/Urbanus-hub/backendPractice#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
